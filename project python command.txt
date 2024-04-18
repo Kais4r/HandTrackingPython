@@ -1,0 +1,13 @@
+//installation script
+pip install cvzone
+pip install mediapipe
+
+//update and generate requirement files
+pip3 freeze > requirements.txt
+pip install -r requirements. txt
+
+python -m venv
+python -m venv projectLib
+
+.\env\Scripts\activate
+.\projectLib\Scripts\activate
